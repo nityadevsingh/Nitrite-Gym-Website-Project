@@ -1,0 +1,147 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: hsl(79, 67%, 52%);
+}
+.container-fluid{
+    padding: 0rem;
+
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}   
+h1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 900;
+    padding: 2rem 0rem 0rem 0rem;
+}
+.navbar{
+    background-color: black;
+    padding: rem rem 0rem 0rem;
+}
+.navbar-brand{
+    /* border-color: white; */
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0rem 1rem;
+}
+.navbar-item{
+    padding: 0 1rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light" ;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    /* width: %; */
+    position: absolute;
+    width:30%;
+    right: 20%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+}
+p{
+    color: grey;
+}
+.feat{
+    font-size: 4.5rem;
+    color: #Ef8172;
+}
+.feat:hover{
+    color: hsl(79, 67%, 52%);
+}
+.lord-icon{
+    font-size: 4.5rem;
+    color: #Ef8172;
+}
+.lord-icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color:hsl(79, 67%, 52%) ;
+    color: white;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color:#712B75;
+    text-align: center;
+    padding-bottom: 3%;
+}  
+.press-logo-img{
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    /* background-color: #FF87B2; */
+    padding: 100px;
+    text-align: center;
+}
+#paragraph{
+   color: black;
+}
+ #footer{
+    text-align: center;
+    padding: 5%;
+    /* background-color: #e56578; */
+     padding-bottom: 0%;
+}
+.pricing-coloumn{
+    padding: 3% 2%;
+}
+@media (max-width: 1444px) {
+    .title-image{
+        transform: rotate(0);
+        position: static;
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: hsl(79, 67%, 52%);
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+}
+.instagram{
+    padding-top: 35px;
+}
+.apap{
+    color: #fff;
+}
+.hr{
+    margin: 0;
+}
